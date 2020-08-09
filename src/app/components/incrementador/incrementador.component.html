@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-3">
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="button" (click)="cambiarValor(+5)"><i
+            class="far fa-thumbs-up fa-2x"></i></button>
+      </span>
+    </div>
+    <div class="col-3">
+      <span class="input-group-btn">
+        <button class="btn btn-success" type="button" (click)="cambiarValor(-5)"><i
+            class="far fa-thumbs-down fa-2x"></i></button>
+      </span>
+    </div>
+    <div class="input-group col-3">
+
+      <input type="text" class="form-control" placeholder="Progreso" [(ngModel)]="progreso">
+
+    </div>
+  </div>
+</div>

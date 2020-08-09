@@ -1,0 +1,76 @@
+@fontPoppin: 'Poppins', sans-serif;
+@font-size: 12px;
+@font-size-title: 16px;
+@font-size-description: 10px;
+
+.titlePrincipal{
+  font-family: @fontPoppin;
+  font-size: @font-size-title;
+  font-weight: 800;
+}
+
+.titleDescription{
+  font-family: @fontPoppin;
+  font-size: @font-size-description;
+}
+
+.titleLoren{
+  font-family: @fontPoppin;
+  font-size: @font-size;
+}
+.progress {
+  background-color: #1cbbb4;
+}
+
+.bg-info {
+  background-color: #ffad1d !important;
+}
+.space{
+  padding-top: 51%;
+}
+.progress.active .progress-bar,
+.progress-bar.active {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite; }
+
+.progress-vertical {
+  min-height: 250px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 20px; }
+
+.progress-vertical-bottom {
+  min-height: 250px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 20px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.progress-animated {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-name: myanimation;
+  -webkit-transition: 5s all;
+  animation-duration: 5s;
+  animation-name: myanimation;
+  -o-transition: 5s all;
+  transition: 5s all; }
+
+@-webkit-keyframes myanimation {
+  from {
+    width: 0; } }
+
+@keyframes myanimation {
+  from {
+    width: 0; } }
+
+    .teal-strong {
+      background: rgb(255,255,255);
+      background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.16850490196078427) 76%, rgba(0,0,0,0.7595413165266106) 100%);
+    }
