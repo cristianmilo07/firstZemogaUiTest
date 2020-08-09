@@ -8,6 +8,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
 import { ShareModule } from '../share/share.module';
+import { SpeakOutComponent } from './speak-out/speak-out.component';
 
 
 
@@ -16,6 +17,7 @@ import { ShareModule } from '../share/share.module';
     DashboardComponent,
     ProgressComponent,
     PagesComponent,
+    SpeakOutComponent,
   ],
   exports: [
     DashboardComponent,
